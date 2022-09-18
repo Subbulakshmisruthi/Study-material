@@ -1,1 +1,11 @@
-
+React: 
+npx create-react-app <<appname>>  -  create react app
+npm start  -  start the app
+React 17 - ReactDOM.render(<<app>>, document.getElementById("root"))
+React 18 - ReactDOM.createRoot(document.getElementById("root")).render(<<app>>)
+function component(){     
+return(
+<div>                      =>     <component />
+</div>
+)
+}
