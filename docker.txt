@@ -1,0 +1,5 @@
+docker pull <image>
+docker run -d -t --name <container_name> <image>
+docker ps
+docker exec -it <container_name> <operation>
+exit
