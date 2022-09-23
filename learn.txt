@@ -9,3 +9,10 @@ return(
 </div>
 )
 }
+
+Props:
+function Component(props){
+return(
+<div>{props.property}</div>)}
+
+<Component property="value" />
